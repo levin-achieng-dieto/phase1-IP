@@ -3,26 +3,26 @@
         {
             "catname": "nana",
             "age": "9 months",
-            "image": "insert-url",
+            "image": "https://postimg.cc/cKmqLRLP",
             "id": "1"
         },
         {
             "catname": "Alba",
             "age": "5 months",
-            "image": "insert-url",
+            "image": "https://postimg.cc/fVMQnqwY",
             "id": "2"
             
         },
         {
             "catname": "aurellia",
             "age": "10 months",
-            "image": "insert-url",
+            "image": "https://postimg.cc/DWz61Lc9",
             "id": "3" 
         },
         {
             "catname": "Blaine",
             "age": "2 months",
-            "image": "insert-url",
+            "image": "https://postimg.cc/7bS3GKkC",
             "id": "4"
         }
     ],
@@ -30,25 +30,25 @@
         {
             "dogName": "Bently",
             "age": "15 months",
-            "image": "dog-image",
+            "image": "https://postimg.cc/KRLBHqVx",
             "id": "1"
         },
         {
             "dogName": "Emerson",
             "age": "5 months",
-            "image": "dog-image",
+            "image": "https://postimg.cc/7CMytk10",
             "id": "2"
         },
         {
             "dogName": "Maverick",
-            "age": "10 months",
+            "age": "https://postimg.cc/yDHQQSLp",
             "image": "dog-image",
             "id": "3"
         },
         {
             "dogName": "Jewel",
             "age": "2 months",
-            "image": "dog-image",
+            "image": "https://postimg.cc/V54kLjCn",
             "id": "4"
         }
     ]
