@@ -195,6 +195,13 @@ li{
     background-color: #f5f3f4;
 }
 
+.cards-section h2{
+    text-align: center;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
 .cards img{
     width: 250px;
     height: 230px;
@@ -206,8 +213,23 @@ li{
     background-color: #8E94F2;
     width: 300px;
     margin-bottom: 10%;
+    box-shadow: 2px 3px 3px #8E94F2;
+    border-radius: 3%;
+}
+
+.cards h2{
+    font-size: 25px;
 }
 
 .like-button{
-    font-size: 200px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+}
+
+footer{
+    height: 500px;
+    background-color: #757BC8;
 }
