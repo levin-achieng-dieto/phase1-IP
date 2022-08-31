@@ -179,7 +179,35 @@ li{
     border-radius: 5%;
 }
 
+.empty{
+    height: 15%;
+    background-color: #8E94F2;
+    color: #8E94F2;
+}
+
 .image img{
     width: 500px;
     height: 400px;
+}
+
+.cards-section{
+    max-height: 700px;
+    background-color: #f5f3f4;
+}
+
+.cards img{
+    width: 250px;
+    height: 230px;
+}
+
+.cards{
+    margin-top: 5%;
+    text-align: center;
+    background-color: #8E94F2;
+    width: 300px;
+    margin-bottom: 10%;
+}
+
+.like-button{
+    font-size: 200px;
 }
