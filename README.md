@@ -7,6 +7,19 @@
 ### Description
  veterinary clinic is one of the project moringa school is giving to devs at the end of every phase to showcase the skills they have gained after some periods of learning. it gives students ability to apply the skills gained in class in the real working environment. veterinary clinic tries help pets owners to register their pets for services uthat is aimed at improving their healths.
 
+
+ ### technologies used
+ #### html
+ * used html to develop the stracture of the page
+ #### css
+ * was used to achieve the attractive appearence of the page
+
+ #### javascript
+ * this technology was used to add interactivity of the page
+
+ #### json server
+ * this server was used locally to hold the API data
+
  ### set-up instructions
  * the user will need a stable source of internet to use the site
  * the user will also need a browser to run the to make fetch request to the server incase of information retrieve
