@@ -1,63 +1,68 @@
 {
-    "cats":[
-        {
-            "catname": "nana",
-            "age": "9 months old",
-            "image": "https://postimg.cc/cKmqLRLP",
-            "likes": "10",
-            "id": "1"
-        },
-        {
-            "catname": "Alba",
-            "age": "5 months old",
-            "image": "https://postimg.cc/fVMQnqwY",
-            "likes": "10",
-            "id": "2"
-            
-        },
-        {
-            "catname": "aurellia",
-            "age": "10 months old",
-            "image": "https://postimg.cc/DWz61Lc9",
-            "likes": "10",
-            "id": "3" 
-        },
-        {
-            "catname": "Blaine",
-            "age": "2 months old",
-            "image": "https://postimg.cc/7bS3GKkC",
-            "likes": "10",
-            "id": "4"
-        }
-    ],
-    "dogs": [
-        {
-            "dogName": "Bently",
-            "age": "15 months old",
-            "image": "https://postimg.cc/KRLBHqVx",
-            "likes": "19",
-            "id": "1"
-        },
-        {
-            "dogName": "Emerson",
-            "age": "5 months old",
-            "image": "https://postimg.cc/7CMytk10",
-            "likes": "18",
-            "id": "2"
-        },
-        {
-            "dogName": "Maverick",
-            "age": "6 months old",
-            "image": "https://postimg.cc/yDHQQSLp",
-            "likes": "10",
-            "id": "3"
-        },
-        {
-            "dogName": "Jewel",
-            "age": "2 months old",
-            "image": "https://postimg.cc/V54kLjCn",
-            "likes": "100",
-            "id": "4"
-        }
-    ]
+  "cats": [
+    {
+      "catname": "nana",
+      "age": "9 months old",
+      "image": "https://postimg.cc/cKmqLRLP",
+      "likes": "10",
+      "id": "1"
+    },
+    {
+      "catname": "Alba",
+      "age": "5 months old",
+      "image": "https://postimg.cc/fVMQnqwY",
+      "likes": "10",
+      "id": "2"
+    },
+    {
+      "catname": "aurellia",
+      "age": "10 months old",
+      "image": "https://postimg.cc/DWz61Lc9",
+      "likes": "10",
+      "id": "3"
+    },
+    {
+      "catname": "Blaine",
+      "age": "2 months old",
+      "image": "https://postimg.cc/7bS3GKkC",
+      "likes": "10",
+      "id": "4"
+    },
+    {
+      "id": "J9Yjqbh"
+    },
+    {
+      "id": "AGgIRrL"
+    }
+  ],
+  "dogs": [
+    {
+      "dogName": "Bently",
+      "age": "15 months old",
+      "image": "https://postimg.cc/KRLBHqVx",
+      "likes": "19",
+      "id": "1"
+    },
+    {
+      "dogName": "Emerson",
+      "age": "5 months old",
+      "image": "https://postimg.cc/7CMytk10",
+      "likes": "18",
+      "id": "2"
+    },
+    {
+      "dogName": "Maverick",
+      "age": "6 months old",
+      "image": "https://postimg.cc/yDHQQSLp",
+      "likes": "10",
+      "id": "3"
+    },
+    {
+      "dogName": "Jewel",
+      "age": "2 months old",
+      "image": "https://postimg.cc/V54kLjCn",
+      "likes": "100",
+      "id": "4"
+    }
+  ]
 }
