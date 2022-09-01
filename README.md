@@ -10,3 +10,8 @@
  ### set-up instructions
  * the user will need a stable source of internet to use the site
  * the user will also need a browser to run the to make fetch request to the server incase of information retrieve
+
+ ### below is the live link to the project
+ * https://levin-achieng-dieto.github.io/phase1-IP/
+
+ 
