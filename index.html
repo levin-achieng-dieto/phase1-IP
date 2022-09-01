@@ -48,21 +48,21 @@
     </div>
     <div class="registration">
         <div class="registration-section">
-            <div class="image">
+            <div class="firstimage">
                 <img src="./src/images/Pin by MrsBad on ᴡ ᴀ ʟ ʟ ᴘ ᴀ ᴘ ᴇ ʀ s _ Cute animals images, Cute dog wallpaper, Cute dog photos.jpeg" alt="">
             </div>
             <div class="inputs">
                 <p>REGISTRATION/<spam>LOGIN</spam></p>
-                <form action="submt">
+                <form action="http://localhost:3000/cats" method="post">
                     <div class="details">
                         <label for="name">Name</label><br>
-                        <input type="text" name="" id="" placeholder="pet name"><br>
+                        <input type="text" name="" id="pet_name" placeholder="pet name"><br>
                         <label for="age">Age</label><br>
-                        <input type="text" name="" id="" placeholder="age in months"><br>
+                        <input type="text" name="" id="pet_age" placeholder="age in months"><br>
                         <label for="image">image</label><br>
-                        <input type="text" name="" id="" placeholder="pet image">
+                        <input type="text" name="" id="pet_image" placeholder="pet image">
                     </div>
-                    <button>Register</button>
+                    <button id="reg-info">Register</button>
                 </form>
             </div>
         </div>
@@ -74,7 +74,7 @@
         <h2>Our registered members</h2>
         <div class="cards">
             <h2 id="names"></h2>
-            <img class="image" src="./src/images/Sleepy relaxed baby cats (1).jpeg" alt="">
+            <img class="image" src="" alt="">
             <p id="age"></p>
             <button class="like-button">
                 <span id="icon"><i class="far fa-thumbs-up"></i></span>
@@ -83,7 +83,7 @@
         </div>
     </div>
     <div>
-        <footer></footer>
+        <footer id="footer"></footer>
     </div>
     <script src="./script.js"></script>
 </body>
