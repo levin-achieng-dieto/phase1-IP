@@ -3,32 +3,35 @@
     {
       "catname": "nana",
       "age": "9 months old",
-      "image": "https://postimg.cc/cKmqLRLP",
+      "image": "https://i.postimg.cc/bYkjtBRr/Red-Ragdolls-Ragdoll-Cat-Breed-Colors-Flame-Point-Ragdoll.jpg",
       "likes": "10",
       "id": 0
     },
     {
       "catname": "Alba",
       "age": "5 months old",
-      "image": "https://postimg.cc/fVMQnqwY",
+      "image": "https://i.postimg.cc/6pjqZjN7/Pin-by-kashish-on-stuff-Cute-cats-and-dogs-Baby-cats-Cute-baby-cats.jpg",
       "likes": "10",
       "id": 1
     },
     {
       "catname": "aurellia",
       "age": "10 months old",
-      "image": "https://postimg.cc/DWz61Lc9",
+      "image": "https://i.postimg.cc/sX3LRcvc/Sleepy-relaxed-baby-cats-1.jpg",
       "likes": "10",
       "id": 2
     },
     {
       "catname": "Blaine",
       "age": "2 months old",
-      "image": "https://postimg.cc/7bS3GKkC",
+      "image": "https://i.postimg.cc/SKRrLv2H/Classy-Woman-Bild.jpg",
       "likes": "10",
       "id": 3
     },
     {
+      "catObject": {
+        "isTrusted": true
+      },
       "id": 4
     },
     {
@@ -38,131 +41,38 @@
       "id": 6
     },
     {
+      "catObject": {
+        "isTrusted": true
+      },
       "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
-    },
-    {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
-    },
-    {
-      "id": 25
-    },
-    {
-      "id": 26
-    },
-    {
-      "id": 27
-    },
-    {
-      "id": 28
-    },
-    {
-      "id": 29
-    },
-    {
-      "id": 30
-    },
-    {
-      "id": 31
-    },
-    {
-      "id": 32
-    },
-    {
-      "id": 33
-    },
-    {
-      "id": 34
-    },
-    {
-      "id": 35
-    },
-    {
-      "id": 36
-    },
-    {
-      "id": 37
-    },
-    {
-      "id": 38
-    },
-    {
-      "id": 39
     }
   ],
   "dogs": [
     {
       "dogName": "Bently",
       "age": "15 months old",
-      "image": "https://postimg.cc/KRLBHqVx",
+      "image": "https://i.postimg.cc/tT2907Cs/Man-takes-stunning-photos-of-himself-petting-his-dog-wherever-he-goes.jpg",
       "likes": "19",
       "id": "1"
     },
     {
       "dogName": "Emerson",
       "age": "5 months old",
-      "image": "https://postimg.cc/7CMytk10",
+      "image": "https://i.postimg.cc/brcWBh1Z/10-Facts-You-Didn-t-Know-About-Doxen-Dachshunds.jpg",
       "likes": "18",
       "id": "2"
     },
     {
       "dogName": "Maverick",
       "age": "6 months old",
-      "image": "https://postimg.cc/yDHQQSLp",
+      "image": "https://i.postimg.cc/sf4Tr7r6/image.jpg",
       "likes": "10",
       "id": "3"
     },
     {
       "dogName": "Jewel",
       "age": "2 months old",
-      "image": "https://postimg.cc/V54kLjCn",
+      "image": "https://i.postimg.cc/63Y4H9k0/Pomsky-12-Surprising-Facts-About-Pomeranian-Husky-Mix.jpg",
       "likes": "100",
       "id": "4"
     }
