@@ -21,16 +21,17 @@ likebtn.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault()
     letsfetch()
-    //renderCat()
+    // renderCat()
     fetchingpets()
     //handleSubmit()
-
 })
 
-
 let petname = document.querySelector('#pet_name').value
+petname=""
 let petage = document.querySelector('#pet_age').value
+petage=""
 let petimage = document.querySelector('#pet_image').value
+petimage=""
 
 document.getElementById('reg-info').addEventListener('click', renderCat)
 
@@ -50,9 +51,11 @@ function renderCat(catObject){
     fetch('http://localhost:3000/cats', {
         method: 'POST',
         headers: {
-            'Content-Type':'application/json'
+            'Content-Type':'application/json',
+            Accept: "application/json"
         },
-        body:JSON.stringify({catObject})
+        
+        body:JSON.stringify(catObject)
     })
     .then(response => response.json())
     .then(data => console.log(data))

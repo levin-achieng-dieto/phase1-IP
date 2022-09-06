@@ -29,22 +29,31 @@
       "id": 3
     },
     {
-      "catObject": {
-        "isTrusted": true
-      },
-      "id": 4
+      "isTrusted": true,
+      "id": 11
     },
     {
-      "id": 5
+      "id": 12
     },
     {
-      "id": 6
+      "isTrusted": true,
+      "id": 13
     },
     {
-      "catObject": {
-        "isTrusted": true
-      },
-      "id": 7
+      "isTrusted": true,
+      "id": 14
+    },
+    {
+      "isTrusted": true,
+      "id": 15
+    },
+    {
+      "isTrusted": true,
+      "id": 16
+    },
+    {
+      "isTrusted": true,
+      "id": 17
     }
   ],
   "dogs": [
