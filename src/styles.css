@@ -191,7 +191,7 @@ li{
 }
 
 .cards-section{
-    max-height: 700px;
+    /* max-height: 700px; */
     background-color: #f5f3f4;
 }
 
@@ -215,6 +215,9 @@ li{
     margin-bottom: 3%;
     box-shadow: 2px 3px 3px #8E94F2;
     border-radius: 3%;
+    margin-right: 40px;
+    margin-left: 30px;
+    
 }
 
 .cards h2{
@@ -267,4 +270,8 @@ a:hover{
 #footer a{
     float: right;
     margin-bottom: 10%;
+}
+
+#fetched{
+    display: flex;
 }

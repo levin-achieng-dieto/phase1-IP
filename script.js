@@ -4,6 +4,7 @@ const count = document.querySelector("#count")
 
 let clicked = false;
 
+function liking(){
 likebtn.addEventListener('click', () => {
     if(!clicked){
         clicked = true;
@@ -16,32 +17,33 @@ likebtn.addEventListener('click', () => {
         count.textContent -1;
     }
 })
-
+}
 
 document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault()
     letsfetch()
-    // renderCat()
-    fetchingpets()
+    renderCat(catObject)
+    //fetchingpets()
     //handleSubmit()
 })
 
-let petname = document.querySelector('#pet_name').value
-petname=""
-let petage = document.querySelector('#pet_age').value
-petage=""
-let petimage = document.querySelector('#pet_image').value
-petimage=""
+// let petname = document.querySelector('#pet_name').value
+// petname=""
+// let petage = document.querySelector('#pet_age').value
+// petage=""
+// let petimage = document.querySelector('#pet_image').value
+// petimage=""
 
-document.getElementById('reg-info').addEventListener('click', renderCat)
+
+document.getElementById('form-input').addEventListener('submit', handleSubmit)
 
 
 function handleSubmit(e){
     e.preventDefault()
     let catObject = {
-        catname:e.target.petname.value,
-        age:e.target.petage.value,
-        image:e.target.petimage.value
+        catname:e.target['pet_name'].value,
+        age:e.target['pet_age'].value,
+        image:e.target['pet_image'].value
     }
     
     renderCat(catObject)
@@ -63,9 +65,6 @@ function renderCat(catObject){
 
 
 
-
-
-
 const names = document.querySelector("#names")
 const image = document.querySelector(".image")
 const ages = document.querySelector("#age")
@@ -73,16 +72,29 @@ const likes = document.querySelector(".like-button")
 
 
 function renderpets(cat){
-   const cards = document.getElementById('cards')
-    names.innerHTML = cat.catname;
-    image. src = cat.image
-    ages.innerHTML = cat.age
-    document.getElementById('fetched').appendChild(cards)
+   const cards = document.createElement('li')
+    // names.innerHTML = cat.catname;
+    // image. src = cat.image
+    // ages.innerHTML = cat.age
+    cards.innerHTML = `
+    <div class="cards">
+            <h2 id="names">${cat.catname}</h2>
+            <img class="image" src="${cat.image}" alt="">
+            <p id="age">${cat.age}</p>
+            <button class="like-button">
+                <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                <span id="count">0</span> Likes
+            </button>
+        </div>
+    `
+
+    liking(cards.querySelector('button'))
+    document.querySelector('#fetched').appendChild(cards)
    
 }
 
 function letsfetch(){
     fetch('http://localhost:3000/cats')
     .then(response => response.json())
-    .then(data => data.forEach(cat => renderpets(cat)))
+    .then((data) => data.forEach((cat) => renderpets(cat)))
 }

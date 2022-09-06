@@ -29,31 +29,40 @@
       "id": 3
     },
     {
-      "isTrusted": true,
-      "id": 11
+      "catname": "levi",
+      "age": "16moths",
+      "image": "will provide",
+      "id": 4
     },
     {
-      "id": 12
+      "catname": "levi",
+      "age": "16moths",
+      "image": "will provide",
+      "id": 5
     },
     {
-      "isTrusted": true,
-      "id": 13
+      "catname": "levi",
+      "age": "16moths",
+      "image": "will provide",
+      "id": 6
     },
     {
-      "isTrusted": true,
-      "id": 14
+      "catname": "levi",
+      "age": "16moths",
+      "image": "will provide",
+      "id": 7
     },
     {
-      "isTrusted": true,
-      "id": 15
+      "catname": "hey",
+      "age": "5",
+      "image": "will provide",
+      "id": 8
     },
     {
-      "isTrusted": true,
-      "id": 16
-    },
-    {
-      "isTrusted": true,
-      "id": 17
+      "catname": "hey",
+      "age": "5",
+      "image": "will provide",
+      "id": 9
     }
   ],
   "dogs": [
