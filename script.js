@@ -1,20 +1,33 @@
-const likebtn = document.querySelector(".like-button")
-const likeIcon = document.querySelector("#icon")
-const count = document.querySelector("#count")
+// const likebtn = document.querySelector(".like-button")
+//     const likeIcon = document.querySelector("#icon")
+//     const count = document.querySelector("#count")
+    
+    let clicked = false;
 
-let clicked = false;
+function likingThisPic(likebtn){
+    return likebtn.querySelector('#icon i').classList.contains("far")
+}
 
-function liking(){
+function liking(likebtn){
 likebtn.addEventListener('click', () => {
-    if(!clicked){
-        clicked = true;
-        likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
-        count.textContent ++;
+    const x = likingThisPic(likebtn)
+
+    if(likingThisPic(likebtn)){
+        // clicked = true;
+        // // likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
+        // likebtn.querySelector('#count').textContent ++;
+
+        likebtn.querySelector('#count').textContent++
+        likebtn.querySelector('#icon i').classList.remove("far")
+        likebtn.querySelector('#icon i').classList.add("fas")
     }
     else{
-        clicked = false;
-        likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`
-        count.textContent -1;
+        // clicked = false;
+        // // likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`
+        // likebtn.querySelector('count').textContent -1;
+        likebtn.querySelector('#icon i').classList.add("far")
+        likebtn.querySelector('#icon i').classList.remove("fas")
+        likebtn.querySelector('#count').textContent--
     }
 })
 }
