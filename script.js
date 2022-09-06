@@ -13,18 +13,11 @@ likebtn.addEventListener('click', () => {
     const x = likingThisPic(likebtn)
 
     if(likingThisPic(likebtn)){
-        // clicked = true;
-        // // likeIcon.innerHTML = `<i class="fas fa-thumbs-up"></i>`;
-        // likebtn.querySelector('#count').textContent ++;
-
         likebtn.querySelector('#count').textContent++
         likebtn.querySelector('#icon i').classList.remove("far")
         likebtn.querySelector('#icon i').classList.add("fas")
     }
     else{
-        // clicked = false;
-        // // likeIcon.innerHTML = `<i class="far fa-thumbs-up"></i>`
-        // likebtn.querySelector('count').textContent -1;
         likebtn.querySelector('#icon i').classList.add("far")
         likebtn.querySelector('#icon i').classList.remove("fas")
         likebtn.querySelector('#count').textContent--
@@ -36,20 +29,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault()
     letsfetch()
     renderCat(catObject)
-    //fetchingpets()
-    //handleSubmit()
 })
-
-// let petname = document.querySelector('#pet_name').value
-// petname=""
-// let petage = document.querySelector('#pet_age').value
-// petage=""
-// let petimage = document.querySelector('#pet_image').value
-// petimage=""
 
 
 document.getElementById('form-input').addEventListener('submit', handleSubmit)
-
 
 function handleSubmit(e){
     e.preventDefault()
@@ -86,9 +69,6 @@ const likes = document.querySelector(".like-button")
 
 function renderpets(cat){
    const cards = document.createElement('li')
-    // names.innerHTML = cat.catname;
-    // image. src = cat.image
-    // ages.innerHTML = cat.age
     cards.innerHTML = `
     <div class="cards">
             <h2 id="names">${cat.catname}</h2>
@@ -103,7 +83,6 @@ function renderpets(cat){
 
     liking(cards.querySelector('button'))
     document.querySelector('#fetched').appendChild(cards)
-   
 }
 
 function letsfetch(){

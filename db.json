@@ -1,7 +1,7 @@
 {
   "cats": [
     {
-      "catname": "nana",
+      "catname": "Nana",
       "age": "9 months old",
       "image": "https://i.postimg.cc/bYkjtBRr/Red-Ragdolls-Ragdoll-Cat-Breed-Colors-Flame-Point-Ragdoll.jpg",
       "likes": "10",
@@ -15,7 +15,7 @@
       "id": 1
     },
     {
-      "catname": "aurellia",
+      "catname": "Aurellia",
       "age": "10 months old",
       "image": "https://i.postimg.cc/sX3LRcvc/Sleepy-relaxed-baby-cats-1.jpg",
       "likes": "10",
@@ -29,40 +29,10 @@
       "id": 3
     },
     {
-      "catname": "levi",
-      "age": "16moths",
-      "image": "will provide",
+      "catname": "newPet",
+      "age": "4 months",
+      "image": "https://d1hjkbq40fs2x4.cloudfront.net/2016-07-16/files/cat-sample_1313.jpg",
       "id": 4
-    },
-    {
-      "catname": "levi",
-      "age": "16moths",
-      "image": "will provide",
-      "id": 5
-    },
-    {
-      "catname": "levi",
-      "age": "16moths",
-      "image": "will provide",
-      "id": 6
-    },
-    {
-      "catname": "levi",
-      "age": "16moths",
-      "image": "will provide",
-      "id": 7
-    },
-    {
-      "catname": "hey",
-      "age": "5",
-      "image": "will provide",
-      "id": 8
-    },
-    {
-      "catname": "hey",
-      "age": "5",
-      "image": "will provide",
-      "id": 9
     }
   ],
   "dogs": [

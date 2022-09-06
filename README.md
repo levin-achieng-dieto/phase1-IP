@@ -27,6 +27,9 @@
  ### below is the live link to the project
  * https://levin-achieng-dieto.github.io/phase1-IP/
 
+ ### video demo link
+ * https://drive.google.com/file/d/1khOauVJ9Y9xKCr6pD9-KM8yrtKBW5vH7/view
+
  ### lecense information
  MIT License
 
